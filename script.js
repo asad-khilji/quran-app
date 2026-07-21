@@ -54,7 +54,7 @@ function showSurah(number) {
 
   const ayahs = ayahsData[String(number)] || [];
 
-  const showBismillah = number !== 1 && number !== 9;
+  const showBismillah = number !== 9;
 
   ayahViewEl.innerHTML = `
     <div class="surah-header">
